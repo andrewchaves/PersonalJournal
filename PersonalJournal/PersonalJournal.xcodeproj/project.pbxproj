@@ -92,6 +92,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		87804F402F99539600130FB2 /* Memories List */ = {
+			isa = PBXGroup;
+			children = (
+				87B0096B2F51199000A6B0AB /* MemoriesListView.swift */,
+			);
+			path = "Memories List";
+			sourceTree = "<group>";
+		};
+		87804F412F9953A900130FB2 /* Add New Memory */ = {
+			isa = PBXGroup;
+			children = (
+				87B009642F51194700A6B0AB /* AddNewMemoryView.swift */,
+			);
+			path = "Add New Memory";
+			sourceTree = "<group>";
+		};
 		87B009302F5118EC00A6B0AB = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				87B0096D2F511A5000A6B0AB /* MainTabView.swift */,
-				87B0096B2F51199000A6B0AB /* MemoriesListView.swift */,
-				87B009642F51194700A6B0AB /* AddNewMemoryView.swift */,
+				87804F412F9953A900130FB2 /* Add New Memory */,
+				87804F402F99539600130FB2 /* Memories List */,
 			);
 			path = View;
 			sourceTree = "<group>";
