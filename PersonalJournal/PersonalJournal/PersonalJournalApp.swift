@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct PersonalJournalApp: App {
@@ -16,6 +17,7 @@ struct PersonalJournalApp: App {
         WindowGroup {
             MainTabView()
                 .environmentObject(appState)
+                .modelContainer(for: JournalEntry.self)
         }
     }
 }
