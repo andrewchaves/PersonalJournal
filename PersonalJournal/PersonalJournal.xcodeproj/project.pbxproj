@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		87804F3C2F91CF2200130FB2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87804F3B2F91CF1D00130FB2 /* AppState.swift */; };
 		87804F3F2F931ABF00130FB2 /* JounalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87804F3E2F931AB800130FB2 /* JounalEntry.swift */; };
+		87804F432F9F032F00130FB2 /* JournalEntryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87804F422F9F031F00130FB2 /* JournalEntryRepository.swift */; };
 		87B009672F51194700A6B0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B009632F51194700A6B0AB /* Assets.xcassets */; };
 		87B009682F51194700A6B0AB /* AddNewMemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B009642F51194700A6B0AB /* AddNewMemoryView.swift */; };
 		87B009692F51194700A6B0AB /* PersonalJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B009652F51194700A6B0AB /* PersonalJournalApp.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		87804F3B2F91CF1D00130FB2 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		87804F3E2F931AB800130FB2 /* JounalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JounalEntry.swift; sourceTree = "<group>"; };
+		87804F422F9F031F00130FB2 /* JournalEntryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryRepository.swift; sourceTree = "<group>"; };
 		87B009392F5118EC00A6B0AB /* PersonalJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B009462F5118EE00A6B0AB /* PersonalJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B009502F5118EE00A6B0AB /* PersonalJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 		87804F3D2F931A0800130FB2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				87804F422F9F031F00130FB2 /* JournalEntryRepository.swift */,
 				87804F3E2F931AB800130FB2 /* JounalEntry.swift */,
 			);
 			path = Model;
@@ -297,6 +300,7 @@
 				87B009682F51194700A6B0AB /* AddNewMemoryView.swift in Sources */,
 				87B009692F51194700A6B0AB /* PersonalJournalApp.swift in Sources */,
 				87B0096E2F511A5800A6B0AB /* MainTabView.swift in Sources */,
+				87804F432F9F032F00130FB2 /* JournalEntryRepository.swift in Sources */,
 				87804F3F2F931ABF00130FB2 /* JounalEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
